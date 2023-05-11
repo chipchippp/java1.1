@@ -61,6 +61,7 @@ public class News implements INews {
 
     @Override
     public void Display() {
+        System.out.println("---------");
         System.out.println("Title " +title);
         System.out.println("PublishDate " + publishDate);
         System.out.println("Author " +author);
