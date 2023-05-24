@@ -1,24 +1,20 @@
-package javafx;
+package javafx2;
 
 import javafx.application.Application;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         launch(args);
     }
     public static Stage mainStage;
     @Override
     public void start(Stage primaryStage) throws Exception {
         mainStage = primaryStage;
-        Parent root = FXMLLoader.load(getClass().getResource("home.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("home2.fxml"));
         primaryStage.setScene(new Scene(root,600,400));
         primaryStage.setTitle("T2210A JavaFX Demo");
         primaryStage.show();

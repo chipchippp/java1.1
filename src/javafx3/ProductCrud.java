@@ -72,11 +72,6 @@ public class ProductCrud {
       allProduct = listView1.getItems();
       SingleProduct = listView1.getSelectionModel().getSelectedItems();
       SingleProduct.forEach(allProduct::remove);
-
-
-
-
-
       clear();
     }
     public void clear(){

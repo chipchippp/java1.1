@@ -1,12 +1,12 @@
 package javafx;
 
 public class Student {
-    private String name, email, telePhone;
+    private String name, email, tel;
 
-    public Student(String name, String email, String telePhone) {
+    public Student(String name, String email, String tel) {
         this.name = name;
         this.email = email;
-        this.telePhone = telePhone;
+        this.tel = tel;
     }
 
     public String getName() {
@@ -25,12 +25,12 @@ public class Student {
         this.email = email;
     }
 
-    public String getTelePhone() {
-        return telePhone;
+    public String getTel() {
+        return tel;
     }
 
-    public void setTelePhone(String telePhone) {
-        this.telePhone = telePhone;
+    public void setTel(String tel) {
+        this.tel = tel;
     }
 
     @Override
@@ -38,7 +38,7 @@ public class Student {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
-                ", telePhone='" + telePhone + '\'' +
+                ", tel='" + tel + '\'' +
                 '}';
     }
 }
