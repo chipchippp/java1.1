@@ -9,8 +9,8 @@ public class Main {
 //        k.setId(90);
         c.buyCart();
         k.buyCart();
-        c.sayHello("haNoi");
-        k.sayHello("SaiGon");
+//        c.sayHello("haNoi");
+//        k.sayHello("SaiGon");
         c.printInfo();
         k.printInfo();
     }
