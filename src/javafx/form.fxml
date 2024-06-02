@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="javafx.FromController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="241.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create new ">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtName" layoutX="116.0" layoutY="89.0" prefHeight="52.0" prefWidth="369.0" promptText="Name" />
+      <TextField fx:id="txtEmail" layoutX="116.0" layoutY="162.0" prefHeight="52.0" prefWidth="369.0" promptText="Email" />
+      <TextField fx:id="txtTel" layoutX="116.0" layoutY="240.0" prefHeight="52.0" prefWidth="369.0" promptText="TelePhone" />
+      <Button onAction="#backToList" layoutX="32.0" layoutY="35.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="76.0" text="&lt;&lt;Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button onAction="#submit" layoutX="398.0" layoutY="320.0" mnemonicParsing="false" text="Submit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

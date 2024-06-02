@@ -67,10 +67,10 @@ public class ProductCrud {
         }
     }
 
-    public void delete(ActionEvent actionEvent) {
+    public void delete() {
       ObservableList<Product2> allProduct, SingleProduct;
-      allProduct = listView1.getItems();
-      SingleProduct = listView1.getSelectionModel().getSelectedItems();
+          allProduct = listView1.getItems();
+          SingleProduct = listView1.getSelectionModel().getSelectedItems();
       SingleProduct.forEach(allProduct::remove);
       clear();
     }

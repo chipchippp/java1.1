@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx3.ProductCrud">
+   <children>
+      <Text layoutX="222.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Crud">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtProduct" layoutX="25.0" layoutY="76.0" promptText="Id" />
+      <TextField fx:id="txtQuantity" layoutX="25.0" layoutY="176.0" promptText="Quantity" />
+      <TextField fx:id="txtPrice" layoutX="25.0" layoutY="126.0" promptText="Price" />
+      <Button layoutX="85.0" layoutY="288.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+      <TableView layoutX="240.0" layoutY="76.0" prefHeight="284.0" prefWidth="327.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="id" />
+          <TableColumn prefWidth="75.0" text="Price" />
+            <TableColumn prefWidth="75.0" text="quantity" />
+            <TableColumn prefWidth="101.0" text="Action" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

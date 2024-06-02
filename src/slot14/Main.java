@@ -9,7 +9,8 @@ public class Main {
 
         StudentList sl = new StudentList();
         int select = 0;
-        do {
+        do {    
+                
             System.out.println("---------MENU----------");
             System.out.println("1. Add student.\n" +
                     "2. Edit student by id.\n" +

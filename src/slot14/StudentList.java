@@ -13,7 +13,7 @@ public class StudentList {
    public StudentList(ArrayList<Student> students){
        this.students = students;
    }
-//    1. Thêm sv vào danh sách
+//    1. 
    public void  addStudent(Student st){
        this.students.add(st);
    }
@@ -21,13 +21,13 @@ public class StudentList {
 
 
 
-//    2. Chỉnh sửa sinh viên theo id.
+//    
 
 
 
 
 
-//    3. Xóa sinh viên theo id.
+//    
     public boolean deleteStudent (Student st){
        return  this.students.remove(st);
     }
@@ -35,7 +35,7 @@ public class StudentList {
 
 
 
-//    4. Sắp xếp học sinh theo điểm trung bình.
+
     public  void sortStudentByGpa(){
         Collections.sort(this.students, new Comparator<Student>() {
             @Override
